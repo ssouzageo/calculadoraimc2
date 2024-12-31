@@ -37,16 +37,15 @@ class MainActivity : AppCompatActivity() {
                 val alturaq2 = altura * altura
                 val resultado = peso / alturaq2
 
-                // 1. Mostrar resultado na outra tela;
-                // 2. Criar layout da tela result;
-                // 3. Passar dados para a outra tela; e
-                // Bônus: Intent é uma classe do android que serve para declarar intenções no sistema.
-
                 val intent = Intent (this, ResultActivity::class.java)
                 intent.putExtra(KEY_RESULT_IMC, resultado)
                 startActivity(intent)
 
-                println("Geo ação do botão " + resultado)
+                /*
+                1. Cores;
+                2. EdiText background + ícone; e
+                3. Gradiente + título + ícone + descrição.
+                 */
             }
 
 
