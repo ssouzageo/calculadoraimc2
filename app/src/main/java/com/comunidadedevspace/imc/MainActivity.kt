@@ -41,11 +41,6 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra(KEY_RESULT_IMC, resultado)
                 startActivity(intent)
 
-                /*
-                1. Cores;
-                2. EdiText background + ícone; e
-                3. Gradiente + título + ícone + descrição.
-                 */
             }
 
 
