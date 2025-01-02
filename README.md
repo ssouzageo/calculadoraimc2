@@ -1,19 +1,28 @@
 # Calculadora IMC
-Desc
+Este projeto é um aplicativo Android (nativo) com o intuito de fazer cálculos sobre o índice de massa corpórea (IMC), como também apresentar seu resultado. Além disso, para uma melhor experiência do usuário, sendo exibido cores diferentes a partir de sua classificação.
 
 ## :camera_flash: Screenshots
-<!-- You can add more screenshots here if you like -->
-Screenshots
+<img src="https://github.com/user-attachments/assets/5efcf342-9884-4867-beb2-422036b6f17c" width=260/> <img src="https://github.com/user-attachments/assets/78d44890-dc39-48c6-9f01-2b80cec5a278" width=260/>
 
 ## Tecnologias
-Techs
+- Activity;
+- Intent; 
+- Snackbar;
+- ViewGroups;
+   - LinearLayout;
+   - ConstraintLayoyt;
+- Views;
+   - ImageView;
+   - TextView;
+   - EditText; e
+   - Button
 
 
 ## License
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Roque Buarque Junior
+Copyright (c) 2025 Geovâneo dos Santos Souza
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
